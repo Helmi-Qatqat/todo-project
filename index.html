@@ -9,10 +9,10 @@
   <title>ToDo</title>
 </head>
 <body>
-  <header style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="display: flex; gap: 20px; align-items: center;"><img src="./to-do-logo.jpg" alt="logo"><b>To Do<b></div>
+  <header>
+    <div><img src="./to-do-logo.jpg" alt="logo"><b>To Do<b></div>
     <nav>
-      <ul style="display: flex; flex-wrap: nowrap; gap: 20px; list-style: none;">
+      <ul>
         <li><a href="about.html">About</a></li>
         <li><a href="#list">My list</a></li>
         <li><a href="#footer">Footer</a></li>
@@ -21,30 +21,36 @@
   </header>
   <hr>
   <main>
-    <section>
       <h2 id="list">My list</h2>
-      <div class="head-row">
-        <div>List</div>
-        <div>Status</div>
-      </div>
-      <div class="first-row">
-        <input type="checkbox" name="" id="">
-        <label for="">Learn HTML</label>
-        <div class="status"></div>
-      </div>
-      <div class="second-row">
-        <input type="checkbox" name="" id=""><label for="">Learn CSS</label>
-        <div class="status"></div>
-      </div>
-      <div class="third-row">
-        <input type="checkbox" name="" id=""><label for="">Learn JavaScript</label>
-        <div class="status"></div>
-      </div>
-      <div class="fourth-row">
-        <input type="checkbox" name="" id=""><label for="">Learn React</label>
-        <div class="status"></div>
-      </div>
-    </section>
+      <table>
+        <tr>
+          <td class="first"><div>List</div><div>Status</div></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="" id=""><label for="">Learn HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <div class="status"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="" id=""><label for="">Learn CSS&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <div class="status"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="" id=""><label for="">Learn JavaScript&nbsp;</label>
+            <div class="status"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="" id=""><label for="">Learn React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <div class="status"></div>
+          </td>
+        </tr>
+      </table>
   </main>
   <hr>
   <footer id="footer">
