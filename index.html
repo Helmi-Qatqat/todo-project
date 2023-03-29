@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="OIP.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/todo-style.css">
   <title>ToDo</title>
 </head>
 <body>
@@ -22,24 +23,27 @@
   <main>
     <section>
       <h2 id="list">My list</h2>
-      <table>
-        <tr>
-          <td><input type="checkbox" name="" id="" style="size: 20px;"></td>
-          <td>Learn HTML</td>
-        </tr>
-        <tr>
-          <td><input type="checkbox" name="" id=""></td>
-          <td>Learn CSS</td>
-        </tr>
-        <tr>
-          <td><input type="checkbox" name="" id=""></td>
-          <td>Learn JavaScript</td>
-        </tr>
-        <tr>
-          <td><input type="checkbox" name="" id=""></td>
-          <td>Learn React</td>
-        </tr>
-      </table>
+      <div class="head-row">
+        <div>List</div>
+        <div>Status</div>
+      </div>
+      <div class="first-row">
+        <input type="checkbox" name="" id="">
+        <label for="">Learn HTML</label>
+        <div class="status"></div>
+      </div>
+      <div class="second-row">
+        <input type="checkbox" name="" id=""><label for="">Learn CSS</label>
+        <div class="status"></div>
+      </div>
+      <div class="third-row">
+        <input type="checkbox" name="" id=""><label for="">Learn JavaScript</label>
+        <div class="status"></div>
+      </div>
+      <div class="fourth-row">
+        <input type="checkbox" name="" id=""><label for="">Learn React</label>
+        <div class="status"></div>
+      </div>
     </section>
   </main>
   <hr>

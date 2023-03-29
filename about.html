@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/about-style.css">
   <title>About</title>
 </head>
 <body>
-  <header style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="display: flex; gap: 20px; align-items: center;"><img src="./about-me-logo.png" alt="logo" height="50px"><b>About Me</b></div>
+  <header>
+    <div>
+      <img src="./about-me-logo.png" alt="logo" height="50px"><b>About Me</b>
+    </div>
     <nav>
-      <ul style="display: flex; flex-wrap: nowrap; gap: 20px; list-style: none;">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#list">My list</a></li>
         <li><a href="#footer">Footer</a></li>
@@ -30,23 +33,23 @@
     <hr>
     <section>
       <h2>Contact</h2>
-      <form action="" style="display: flex; flex-direction: column; gap: 20px;">
-        <div style="display: flex; flex-direction: column; width: 200px;" >
+      <form action="">
+        <div>
           <label for="text">Name:</label>
-          <input type="text">
+          <input type="text" placeholder="John Wick">
         </div>
-        <div style="display: flex; flex-direction: column; width: 200px">
+        <div>
           <label for="email">Email:</label>
-          <input type="email">
+          <input type="email" placeholder="example@edu.jo">
         </div>
-        <div style="display: flex; flex-direction: column; width: 200px">
+        <div>
           <label for="textarea">Comment:</label>
-          <input type="textarea">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Write comment"></textarea>
         </div>
+        <input type="button" value="Send">
       </form>
     </section>
   </main>
-  <br>
   <hr>
   <footer id="footer">
     <div>Helmi Copyright © 2023</div>
