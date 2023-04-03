@@ -14,6 +14,7 @@ do {
     age = prompt('Enter your age please')
   }
 } while (age <= 0 || isNaN(age))
+
 let agree = confirm('Do you want to show a welcoming message?')
 if(agree) {
   
