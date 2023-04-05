@@ -32,7 +32,7 @@ if (agree) {
   );
 }
 
-let answers = function (input) {
+let questionAnswers = function (input) {
   if (input == "") {
     return "invalid";
   }
@@ -49,9 +49,9 @@ let answerArr = [
   "Username: " + userName,
   "Gender: " + gender,
   "Age: " + age,
-  "Likes Coffe: " + answers(questionOne),
-  "Lives in Jordan: " + answers(questionTwo),
-  "Loves Shawermah: " + answers(questionThree),
+  "Likes Coffe: " + questionAnswers(questionOne),
+  "Lives in Jordan: " + questionAnswers(questionTwo),
+  "Loves Shawermah: " + questionAnswers(questionThree),
 ];
 
 let consolingAnswer = function (arr) {
